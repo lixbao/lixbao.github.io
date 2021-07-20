@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
         with:
-          repository: GoodManWEN/GoodManWEN.github.io
+          repository: lixbao/lixbao.github.io
       - name: Set up Node
         uses: actions/setup-node@v2
         with:
