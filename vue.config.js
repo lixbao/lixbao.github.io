@@ -7,7 +7,7 @@ module.exports = {
     host:'0.0.0.0',
     proxy:{
       "/dev":{
-        target:"http://127.0.0.1:8079",
+        target:"http://127.0.0.1:7890",
         changeOrigin:true,
         pathRewrite:{
           '^/dev':''
