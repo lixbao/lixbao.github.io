@@ -126,7 +126,7 @@ export default {
       }
       let googlepat = /^((https|http|ftp|rtsp|mms)?:\/\/)?[w.]*google\.com(\/)*$/
       if (googlepat.test(this.input_src)) {
-        this.input_src = 'https://www.google.com/webhp?igu=1'
+        this.input_src = 'https://www.cnblogs.com/illusory---/'
         noheader = false
       }
       if (noheader) {
